@@ -10,7 +10,7 @@ spec:
   retryInterval: 2m
   sourceRef:
     kind: GitRepository
-    name: diablo-system
+    name: flux-system
   path: ./repos
   prune: true
   validation: client
