@@ -2,10 +2,11 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: infra
-  namespace: default
+  name: infra-repo
+  namespace: infra
 spec:
   interval: 5m0s
-  url: https://github.com/jianxinqi/infra
+  url: https://github.com/jianxinqi/myinfra
   ref:
     branch: main
+  
