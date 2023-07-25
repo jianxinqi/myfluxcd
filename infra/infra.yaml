@@ -13,4 +13,4 @@ spec:
     name: infra-repo
     namespace: flux-system
   path: ./
-  prune: trune
+  prune: true
