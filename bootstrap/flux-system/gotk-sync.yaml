@@ -9,7 +9,7 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: https://git@github.com/jianxinqi/myfluxcd
+  url: https://github.com/jianxinqi/myfluxcd
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
